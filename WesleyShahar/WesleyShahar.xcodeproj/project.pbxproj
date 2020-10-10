@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F3D8DB02520DA450094977A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3D8DAF2520DA450094977A /* AppDelegate.swift */; };
+		6F3D8DB22520DA450094977A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3D8DB12520DA450094977A /* SceneDelegate.swift */; };
+		6F3D8DB42520DA450094977A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3D8DB32520DA450094977A /* ViewController.swift */; };
+		6F3D8DB72520DA450094977A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3D8DB52520DA450094977A /* Main.storyboard */; };
+		6F3D8DB92520DA480094977A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3D8DB82520DA480094977A /* Assets.xcassets */; };
+		6F3D8DBC2520DA480094977A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3D8DBA2520DA480094977A /* LaunchScreen.storyboard */; };
+		6F9F94BD253165AE008681CF /* SHDispatchQueuePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F94BC253165AE008681CF /* SHDispatchQueuePool.swift */; };
+		6F9F952125318AA5008681CF /* SHMMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F952025318AA5008681CF /* SHMMApp.swift */; };
+		6F9F952525318AD9008681CF /* SHMMAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F952425318AD9008681CF /* SHMMAppManager.swift */; };
+		6F9F95292531900A008681CF /* SHMMAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F95282531900A008681CF /* SHMMAppInfo.swift */; };
+		6F9F952D2531901C008681CF /* SHMMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F952C2531901C008681CF /* SHMMManager.swift */; };
+		6F9F95302531902F008681CF /* SHMMSystemConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F952F2531902F008681CF /* SHMMSystemConfig.swift */; };
+		6F9F95332531903E008681CF /* SHMMManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F95322531903E008681CF /* SHMMManagerProtocol.swift */; };
+		6F9F953625319699008681CF /* SHMMBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F953525319699008681CF /* SHMMBridge.swift */; };
+		6F9F9539253196C1008681CF /* SHMMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F9538253196C1008681CF /* SHMMService.swift */; };
+		6F9F953C253196D8008681CF /* SHMMServiceBridgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F953B253196D8008681CF /* SHMMServiceBridgeProtocol.swift */; };
+		6F9F953F25319A64008681CF /* SHHMBaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F953E25319A64008681CF /* SHHMBaseApi.swift */; };
+		6F9F954225319BEA008681CF /* SHMMApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F954125319BEA008681CF /* SHMMApi.swift */; };
+		6F9F954525319BF7008681CF /* SHMMApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F954425319BF7008681CF /* SHMMApiProtocol.swift */; };
+		6F9F954825319C06008681CF /* SHMMApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F954725319C06008681CF /* SHMMApiRequest.swift */; };
+		6F9F954B2531A6D9008681CF /* SHMMScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F954A2531A6D9008681CF /* SHMMScriptMessageHandler.swift */; };
+		6F9F954E2531A713008681CF /* SHMMJsonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F954D2531A713008681CF /* SHMMJsonExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F3D8DAC2520DA450094977A /* WesleyShahar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WesleyShahar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3D8DAF2520DA450094977A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F3D8DB12520DA450094977A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F3D8DB32520DA450094977A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F3D8DB62520DA450094977A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F3D8DB82520DA480094977A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F3D8DBB2520DA480094977A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F3D8DBD2520DA480094977A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9F94BC253165AE008681CF /* SHDispatchQueuePool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHDispatchQueuePool.swift; sourceTree = "<group>"; };
+		6F9F952025318AA5008681CF /* SHMMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMApp.swift; sourceTree = "<group>"; };
+		6F9F952425318AD9008681CF /* SHMMAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMAppManager.swift; sourceTree = "<group>"; };
+		6F9F95282531900A008681CF /* SHMMAppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMAppInfo.swift; sourceTree = "<group>"; };
+		6F9F952C2531901C008681CF /* SHMMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMManager.swift; sourceTree = "<group>"; };
+		6F9F952F2531902F008681CF /* SHMMSystemConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMSystemConfig.swift; sourceTree = "<group>"; };
+		6F9F95322531903E008681CF /* SHMMManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMManagerProtocol.swift; sourceTree = "<group>"; };
+		6F9F953525319699008681CF /* SHMMBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMBridge.swift; sourceTree = "<group>"; };
+		6F9F9538253196C1008681CF /* SHMMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMService.swift; sourceTree = "<group>"; };
+		6F9F953B253196D8008681CF /* SHMMServiceBridgeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMServiceBridgeProtocol.swift; sourceTree = "<group>"; };
+		6F9F953E25319A64008681CF /* SHHMBaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHHMBaseApi.swift; sourceTree = "<group>"; };
+		6F9F954125319BEA008681CF /* SHMMApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMApi.swift; sourceTree = "<group>"; };
+		6F9F954425319BF7008681CF /* SHMMApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMApiProtocol.swift; sourceTree = "<group>"; };
+		6F9F954725319C06008681CF /* SHMMApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMApiRequest.swift; sourceTree = "<group>"; };
+		6F9F954A2531A6D9008681CF /* SHMMScriptMessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMScriptMessageHandler.swift; sourceTree = "<group>"; };
+		6F9F954D2531A713008681CF /* SHMMJsonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMMJsonExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F3D8DA92520DA450094977A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F3D8DA32520DA450094977A = {
+			isa = PBXGroup;
+			children = (
+				6F3D8DAE2520DA450094977A /* WesleyShahar */,
+				6F3D8DAD2520DA450094977A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F3D8DAD2520DA450094977A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F3D8DAC2520DA450094977A /* WesleyShahar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F3D8DAE2520DA450094977A /* WesleyShahar */ = {
+			isa = PBXGroup;
+			children = (
+				6F3D8DAF2520DA450094977A /* AppDelegate.swift */,
+				6F3D8DB12520DA450094977A /* SceneDelegate.swift */,
+				6F3D8DB32520DA450094977A /* ViewController.swift */,
+				6F9F94BC253165AE008681CF /* SHDispatchQueuePool.swift */,
+				6F9F951925318A1A008681CF /* SHMMiddleWare */,
+				6F3D8DB52520DA450094977A /* Main.storyboard */,
+				6F3D8DB82520DA480094977A /* Assets.xcassets */,
+				6F3D8DBA2520DA480094977A /* LaunchScreen.storyboard */,
+				6F3D8DBD2520DA480094977A /* Info.plist */,
+			);
+			path = WesleyShahar;
+			sourceTree = "<group>";
+		};
+		6F9F951925318A1A008681CF /* SHMMiddleWare */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F952725318FF5008681CF /* Manager */,
+				6F9F951F25318A91008681CF /* Hybird */,
+				6F9F951E25318A8B008681CF /* Api */,
+				6F9F951D25318A81008681CF /* File */,
+				6F9F951C25318A7A008681CF /* Page */,
+				6F9F951B25318A72008681CF /* Service */,
+				6F9F951A25318A65008681CF /* Tool */,
+				6F9F952025318AA5008681CF /* SHMMApp.swift */,
+				6F9F952425318AD9008681CF /* SHMMAppManager.swift */,
+			);
+			path = SHMMiddleWare;
+			sourceTree = "<group>";
+		};
+		6F9F951A25318A65008681CF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F954A2531A6D9008681CF /* SHMMScriptMessageHandler.swift */,
+				6F9F954D2531A713008681CF /* SHMMJsonExtension.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6F9F951B25318A72008681CF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F953525319699008681CF /* SHMMBridge.swift */,
+				6F9F9538253196C1008681CF /* SHMMService.swift */,
+				6F9F953B253196D8008681CF /* SHMMServiceBridgeProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6F9F951C25318A7A008681CF /* Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		6F9F951D25318A81008681CF /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		6F9F951E25318A8B008681CF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F954125319BEA008681CF /* SHMMApi.swift */,
+				6F9F954425319BF7008681CF /* SHMMApiProtocol.swift */,
+				6F9F954725319C06008681CF /* SHMMApiRequest.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		6F9F951F25318A91008681CF /* Hybird */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F953E25319A64008681CF /* SHHMBaseApi.swift */,
+			);
+			path = Hybird;
+			sourceTree = "<group>";
+		};
+		6F9F952725318FF5008681CF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F95282531900A008681CF /* SHMMAppInfo.swift */,
+				6F9F952C2531901C008681CF /* SHMMManager.swift */,
+				6F9F952F2531902F008681CF /* SHMMSystemConfig.swift */,
+				6F9F95322531903E008681CF /* SHMMManagerProtocol.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F3D8DAB2520DA450094977A /* WesleyShahar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3D8DC02520DA480094977A /* Build configuration list for PBXNativeTarget "WesleyShahar" */;
+			buildPhases = (
+				6F3D8DA82520DA450094977A /* Sources */,
+				6F3D8DA92520DA450094977A /* Frameworks */,
+				6F3D8DAA2520DA450094977A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WesleyShahar;
+			productName = WesleyShahar;
+			productReference = 6F3D8DAC2520DA450094977A /* WesleyShahar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F3D8DA42520DA450094977A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6F3D8DAB2520DA450094977A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F3D8DA72520DA450094977A /* Build configuration list for PBXProject "WesleyShahar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F3D8DA32520DA450094977A;
+			productRefGroup = 6F3D8DAD2520DA450094977A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F3D8DAB2520DA450094977A /* WesleyShahar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F3D8DAA2520DA450094977A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3D8DBC2520DA480094977A /* LaunchScreen.storyboard in Resources */,
+				6F3D8DB92520DA480094977A /* Assets.xcassets in Resources */,
+				6F3D8DB72520DA450094977A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F3D8DA82520DA450094977A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9F95332531903E008681CF /* SHMMManagerProtocol.swift in Sources */,
+				6F9F954525319BF7008681CF /* SHMMApiProtocol.swift in Sources */,
+				6F9F954E2531A713008681CF /* SHMMJsonExtension.swift in Sources */,
+				6F9F953625319699008681CF /* SHMMBridge.swift in Sources */,
+				6F9F952525318AD9008681CF /* SHMMAppManager.swift in Sources */,
+				6F9F954B2531A6D9008681CF /* SHMMScriptMessageHandler.swift in Sources */,
+				6F3D8DB42520DA450094977A /* ViewController.swift in Sources */,
+				6F3D8DB02520DA450094977A /* AppDelegate.swift in Sources */,
+				6F9F94BD253165AE008681CF /* SHDispatchQueuePool.swift in Sources */,
+				6F9F9539253196C1008681CF /* SHMMService.swift in Sources */,
+				6F9F953F25319A64008681CF /* SHHMBaseApi.swift in Sources */,
+				6F9F954825319C06008681CF /* SHMMApiRequest.swift in Sources */,
+				6F9F952D2531901C008681CF /* SHMMManager.swift in Sources */,
+				6F9F954225319BEA008681CF /* SHMMApi.swift in Sources */,
+				6F3D8DB22520DA450094977A /* SceneDelegate.swift in Sources */,
+				6F9F95302531902F008681CF /* SHMMSystemConfig.swift in Sources */,
+				6F9F953C253196D8008681CF /* SHMMServiceBridgeProtocol.swift in Sources */,
+				6F9F952125318AA5008681CF /* SHMMApp.swift in Sources */,
+				6F9F95292531900A008681CF /* SHMMAppInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F3D8DB52520DA450094977A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F3D8DB62520DA450094977A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F3D8DBA2520DA480094977A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F3D8DBB2520DA480094977A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F3D8DBE2520DA480094977A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F3D8DBF2520DA480094977A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F3D8DC12520DA480094977A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WesleyShahar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.aosic.github.WesleyShahar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F3D8DC22520DA480094977A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WesleyShahar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.aosic.github.WesleyShahar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F3D8DA72520DA450094977A /* Build configuration list for PBXProject "WesleyShahar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3D8DBE2520DA480094977A /* Debug */,
+				6F3D8DBF2520DA480094977A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F3D8DC02520DA480094977A /* Build configuration list for PBXNativeTarget "WesleyShahar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3D8DC12520DA480094977A /* Debug */,
+				6F3D8DC22520DA480094977A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F3D8DA42520DA450094977A /* Project object */;
+}
